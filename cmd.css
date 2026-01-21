@@ -3,28 +3,36 @@ body{
     padding: 0;
 }
 .container-principal{
-    
+   
 }
 .navmenu {
     background: red;
     width: 100%;
-    height: 6vh;
+    height: 5vh;
     
 }
-nav a{
-    color: white;
-    padding: 10px;
-    text-decoration: none;
+    nav a{
+         color: white;
+         padding: 10px;
+         text-decoration: none;
 }
 .form{
-    background: green;
-    width: 70%;
+    width: 100%;
     height: 56vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
 }
+form {
+    border: 1PX solid black;
+    padding: 15px;
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+}
+    form input{
+        width: 100%;
+    }
 .tabela{
     background: blue;
     height: 15vh;
