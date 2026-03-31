@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comanda</title>
+    <meta charset="utf-8" />
     <link href="cmd.css" rel="stylesheet" />
+    <title></title>
 </head>
-<body>      
+<body>
     <nav>
         <a href="home.html">Home</a>
         <a href="pizzas.html">Pizzas</a>
@@ -15,11 +15,14 @@
         <a href="cargo.html">Cargos</a>
         <a href="">Usuario</a>
     </nav>
-     <div class="titulo">
+    <div class="cmd">
+        <div class="titulo">
+
             <h1>Pizzaria</h1>
             <h2>Italiana</h2>
-     </div>
-     <div class="form">
+
+        </div>
+        <div class="form">
             <form>
                 <label>Data da Compra</label><br /><br />
                 <input type="date" name="nome" /><br /><br />
@@ -44,10 +47,37 @@
                 <select>
                     <option value="#">#</option>
                 </select><br /><br />
-                <button>Cadastrar</button>
+                <button id="btncadastrarpizza">Fazer Pedido</button>
             </form>
-     </div>
+        </div>
+        <div class="tabela">
 
-     <div class="tabela">TABELA</div>
+            <h2>Lista de Pizza</h2>
+            <table class="table">
+
+                <tbody>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Nome</th>
+                        <th>Ingrediente</th>
+                        <th>Status</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td class="td">trtre</td>
+                        <td class="td">Cleriston Trajano da Silva</td>
+                        <td class="td">gdfgf</td>
+                        <td class="td">vbvcb</td>
+                        <td class="td">Antony Pedro</td>
+                        <td class="td">patricia Rodrigues</td>
+                        <td class="btn-excluir"><a href="">Excluir</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
 </body>
 </html>

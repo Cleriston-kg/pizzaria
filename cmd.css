@@ -1,9 +1,15 @@
-body{
+﻿body {
     margin: 0;
     padding: 0;
 }
-
-
+.cmd{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 nav {
     background: rgb(71, 71, 71);
     width: 100%;
@@ -19,45 +25,69 @@ nav {
         nav a:hover {
             background: red;
         }
-
-.form{
-    width: 100%;
-    height: 56vh;
-    display: flex;
-    align-items: center;
+.form {
+    width: 70%;
+    height: 50%;
+    margin-top: 15px;
     justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
 }
-    form {
-        border: 1PX solid black;
-        padding: 15px;
-        width: 70%;
-        font-size: 18px;
-        font-weight: bold;
-    }
-    form input{
-        width: 100%;
-        height: 10px;
-    }
-.tabela{
-
-    background: blue;
-    height: 15vh;
-}
-.titulo{
+input{
     width: 100%;
-    height: 20vh;
-    color: white;
-    background-image: url(pizzaBanner.jpg);
-    background-size: 100%;
-    justify-content:center;
+    height: 34px;
 }
-    h1 {
-        color: white;
-        align-items: center;
+
+    .titulo {
+        width: 100%;
+        height: 25vh;
+        background-color: red;
         display: flex;
-        margin-left: 15%;
+        align-items: center;
+        justify-content: center;
+        background-image: url(pizzaBanner.jpg);
+        background-position: center;
+        background-size: cover;
     }
 
-    h2 {
-        margin-left: 15%;
+    select {
+        height: 34px;
     }
+#btncadastrarpizza {
+    font-size: 24px;
+    border-color: #2e6da4;
+    color: white;
+    background-color: #337ab7;
+}
+/*===================================== Tabela =================================================*/
+tbody {
+    width: 100%;
+}
+
+.tabela {
+    width: 70%;
+}
+
+.table th {
+    border: 1px solid black;
+}
+
+.td {
+    padding-left: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.lista-tabela h2 {
+    margin: 0;
+}
+
+.btn-excluir a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
