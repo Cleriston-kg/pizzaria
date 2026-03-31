@@ -1,0 +1,74 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgb(71, 71, 71);
+    width: 100%;
+    padding: 15px;
+}
+
+    nav a {
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            background: red;
+        }
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    width: 70%;
+}
+.titulo {
+    width: 100%;
+    height: 25vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pizzaBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.colaborador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+.form{
+    width: 70vw;
+    height: 40vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+}
+
+label{
+    margin-left: 0;
+    width: 100%;
+}
+input {
+    width: 100%;
+    height: 34px;
+}
+#btncadastro {
+    font-size: 24px;
+    border-color: #2e6da4;
+    color: white;
+    background-color: #337ab7;
+}
+.rodape{
+    align-items:end;
+}
