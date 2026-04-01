@@ -8,9 +8,9 @@
 </head>
 <body>
     <nav>
-        <a href="home.html">Home</a>
+        <a href="pizzaria.html">Home</a>
         <a href="">Pizzas</a>
-        <a href="comanda.html">Comanda</a>
+        <a href="cmd.html">Comanda</a>
         <a href="">Funcionarios</a>
         <a href="">Cargos</a>
         <a href="">Usuario</a>
@@ -21,20 +21,20 @@
     <div class="form">
         <form action="">
             <h1>Nova Pizza</h1>
-            <input type="text" placeholder="Nome"><br><br>
-            <input type="text" placeholder="ingredientes"><br><br>
-            <input type="text" placeholder="valor"><br><br>
-            <select>
+            <input type="text" id="nome" placeholder="Nome"><br><br>
+            <input type="text" id="ingredientes" placeholder="ingredientes"><br><br>
+            <input type="text" id="valor" placeholder="valor"><br><br>
+            <select id="status">
                 <option value="Disponivel">Disponivel</option>
                 <option value="Indisponivel">Indisponivel</option>
             </select><br><br>
-            <select>
+            <select id="sabor">
                 <option value="doce">Doce</option>
                 <option value="salgado">Salgado</option>
                 <option value="fit">Fit</option>
                 <option value="vegetariana">Vegetariana</option>
             </select><br><br>
-            <button class="btn-cadastro">Cadastrar</button><br><br>
+            <button class="btncadastro" id="btncadastro">Cadastrar</button><br><br>
         </form>
         <div class="lista-tabela">
             <h2>Lista de Pizza</h2>
@@ -63,6 +63,7 @@
             </table>
         </div>
     </div>
+    <script src="pizzas.js"></script>
 </body>
 </html>
 <!--
